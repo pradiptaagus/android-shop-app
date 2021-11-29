@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_title_text_size">35sp</dimen>
+    <dimen name="button_background_radius">10dp</dimen>
+    <dimen name="spacing">16dp</dimen>
+    <dimen name="login_header_title">28sp</dimen>
+    <dimen name="login_header_height">200dp</dimen>
+    <dimen name="login_title">18sp</dimen>
+    <dimen name="tv_padding">5dp</dimen>
+    <dimen name="forgot_password">14sp</dimen>
+    <dimen name="button_padding">8dp</dimen>
+    <dimen name="button_text">16sp</dimen>
+    <dimen name="et_text_size">16sp</dimen>
+    <dimen name="toolbar_text_size">18sp</dimen>
+</resources>
