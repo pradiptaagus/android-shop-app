@@ -88,11 +88,11 @@ class LoginActivity : BaseActivity(), View.OnClickListener {
 
     private fun validate(): Boolean {
         return when {
-            findViewById<TextInputEditText>(R.id.et_email).text.toString().trim(' ') == "" -> {
+            etEmail.text.toString().trim(' ') == "" -> {
                 showSnackBar("Email is required.", true)
                 false
             }
-            findViewById<TextInputEditText>(R.id.et_password).text.toString().trim(' ') == "" -> {
+            etPassword.text.toString().trim(' ') == "" -> {
                 showSnackBar("Password is required.", true)
                 false
             }

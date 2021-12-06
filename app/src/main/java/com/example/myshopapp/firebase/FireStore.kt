@@ -18,8 +18,11 @@ class FireStore(private val USER: String = "users") {
             .set(user, SetOptions.merge())
     }
 
-    fun getUserDetail(
-    ): Task<DocumentSnapshot> {
+    fun getUserDetail(): Task<DocumentSnapshot> {
         return fireStore.collection(USER).document(auth.getCurrentUserId()).get()
+    }
+
+    fun updateUser(data: HashMap<String, Any>): Task<Void> {
+        return fireStore.collection(USER).document(auth.getCurrentUserId()).update(data)
     }
 }
